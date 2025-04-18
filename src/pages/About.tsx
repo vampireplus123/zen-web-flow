@@ -1,6 +1,5 @@
-
 import { Navbar } from "@/components/ui/navbar";
-import { Heart, Lotus, Users } from "lucide-react";
+import { Smile, Heart, Users } from "lucide-react";
 
 const About = () => {
   const values = [
@@ -15,7 +14,7 @@ const About = () => {
       description: "Our studio welcomes practitioners of all levels, backgrounds, and experiences.",
     },
     {
-      icon: Lotus,
+      icon: Smile,
       title: "Holistic Wellness",
       description: "We focus on nurturing both body and mind for complete well-being.",
     },
